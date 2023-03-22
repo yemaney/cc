@@ -143,11 +143,6 @@ function parse_params {
         esac
         shift
     done
-    
-
-    # args=("$@")
-    
-    # make_commit
 }
 
 parse_params "$@"
