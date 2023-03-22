@@ -95,7 +95,7 @@ Potential commit message:
     
     case $REPLY in
         Y | y)
-            git commit -m "$emoji : $message"
+            git commit -m "$message"
         ;;
         *)
             exit 1
